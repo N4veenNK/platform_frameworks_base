@@ -110,5 +110,6 @@ public class SystemSettings {
         Settings.System.AUTO_BRIGHTNESS_ONE_SHOT,
         Settings.System.SCREEN_OFF_FOD,
         Settings.System.NOTIFICATION_HEADERS,
+        Settings.System.BATTERY_LEVEL_COLORS,
     };
 }
