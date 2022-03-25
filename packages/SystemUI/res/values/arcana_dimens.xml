@@ -78,10 +78,12 @@
     <dimen name="status_bar_mobile_type_padding_limit">10dp</dimen>
     
     <!-- Height of the landscape battery icon in the status bar. -->
-    <dimen name="status_bar_battery_icon_height_landscape">10.5dp</dimen>
+    <dimen name="status_bar_battery_icon_height_landscape_default">10.5dp</dimen>
+    <dimen name="status_bar_battery_icon_height_landscape_style_a_b">12dp</dimen>
 
     <!-- Width of the landscape battery icon in the status bar. -->
-    <dimen name="status_bar_battery_icon_width_landscape">20dp</dimen>
+    <dimen name="status_bar_battery_icon_width_landscape_default">20dp</dimen>
+    <dimen name="status_bar_battery_icon_width_landscape_style_a_b">23dp</dimen>
 
     <!-- Clear all notifications button -->
     <dimen name="dismiss_all_button_elevation">10dp</dimen>
