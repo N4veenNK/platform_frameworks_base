@@ -272,12 +272,12 @@ class CircleBatteryDrawable(private val context: Context, frameColor: Int) : Dra
         ) === 1
 
         val res = context.resources
-        val levels = if(setCustomBatteryLevelTint)
+        val color_levels = if(setCustomBatteryLevelTint)
             res.obtainTypedArray(R.array.corvus_batterymeter_color_levels)
         else
             res.obtainTypedArray(R.array.batterymeter_color_levels)
 
-        val colors = if(setCustomBatteryLevelTint) 
+        val color_values = if(setCustomBatteryLevelTint) 
             res.obtainTypedArray(R.array.corvus_batterymeter_color_values)
         else
             res.obtainTypedArray(R.array.batterymeter_color_values)
